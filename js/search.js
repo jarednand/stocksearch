@@ -126,6 +126,7 @@ $(document).ready(function(){
 
   });
 
+  //Trigger search when page is loaded
   $("#searchButton").click();
 
 });
