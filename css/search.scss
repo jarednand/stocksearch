@@ -1,0 +1,39 @@
+$bg-color: #333333;
+$green: #00CD00;
+$darkGreen: #008B00;
+
+h1, h2, h3, h4 {
+  margin:0px;
+}
+
+.right {
+  text-align:right;
+}
+
+.green {
+  color:$green;
+}
+
+.btn-success {
+  background-color:$green;
+}
+
+.btn-success:hover {
+  background-color:$darkGreen;
+}
+
+.navigation {
+  background-color:$bg-color;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#fff;
+
+  a {
+    color:#fff;
+  }
+
+  a:hover {
+    text-decoration:none;
+  }
+
+}

@@ -1,0 +1,56 @@
+$bg-color: #333333;
+$green: #00CD00;
+$darkGreen: #008B00;
+
+body {
+  background-color:$bg-color;
+}
+
+.home {
+  margin-top:200px;
+}
+
+.center {
+  text-align:center;
+}
+
+.logo {
+
+  span {
+    color:$green;
+  }
+
+  h1 {
+    color:#fff;
+    margin-top:0px;
+    margin-bottom:15px;
+  }
+
+  a {
+    color:#fff;
+  }
+
+  a:hover {
+    text-decoration:none;
+  }
+
+}
+
+.btn-success {
+  background-color:$green;
+}
+
+.btn-success:hover {
+  background-color:$darkGreen;
+}
+
+.form-control {
+  width:500px;
+}
+
+.navigation {
+  background-color:$bg-color;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#fff;
+}
